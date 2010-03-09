@@ -1,1 +1,8 @@
 This is a sample Grails application for use during Chariot Tech Tuesdays training session.
+
+To generate project files for your favorite IDE use the 'grails integrate-with' command:
+
+Eclipse/STST: grails integrate-with --eclipse
+IntelliJ: grails integrate-with --intellij
+TextMate: grails integrate-with --textmate
+
