@@ -10,5 +10,6 @@ class Person {
 	static embedded = ['address']
 	
     static constraints = {
+		address(nullable:true)
     }
 }

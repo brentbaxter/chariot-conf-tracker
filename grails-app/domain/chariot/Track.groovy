@@ -3,7 +3,7 @@ package chariot
 class Track {
 
 	String name
-	Session session
+	static hasMany = [sessions:Session]
 
     static constraints = {
     }

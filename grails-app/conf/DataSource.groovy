@@ -14,18 +14,21 @@ environments {
 	development {
 		dataSource {
 			dbCreate = "create-drop" // one of 'create', 'create-drop','update'
+			//url = "jdbc:postgresql:conftrackDev"
 			url = "jdbc:hsqldb:mem:devDB"
 		}
 	}
 	test {
 		dataSource {
 			dbCreate = "update"
+			//url = "jdbc:postgresql:conftrackTest"
 			url = "jdbc:hsqldb:mem:testDb"
 		}
 	}
 	production {
 		dataSource {
 			dbCreate = "update"
+			//url = "jdbc:postgresql:conftrackProd"
 			url = "jdbc:hsqldb:file:prodDb;shutdown=true"
 		}
 	}

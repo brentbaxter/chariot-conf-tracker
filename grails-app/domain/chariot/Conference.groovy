@@ -8,6 +8,6 @@ class Conference {
 	static hasMany = [tracks:Track]
 
 	static constraints = {
-		tracks(nullable:false,blank:false)
+		tracks(nullable:true,blank:true)
 	}
 }

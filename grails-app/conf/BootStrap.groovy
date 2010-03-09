@@ -1,7 +1,12 @@
 class BootStrap {
 
-     def init = { servletContext ->
-     }
-     def destroy = {
-     }
+	def init = { servletContext ->
+		environments {
+			development {
+			}
+		}     
+	}
+	
+	def destroy = {
+	}
 } 
