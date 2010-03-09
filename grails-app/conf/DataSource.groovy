@@ -3,6 +3,12 @@ dataSource {
 	driverClassName = "org.hsqldb.jdbcDriver"
 	username = "sa"
 	password = ""
+	
+	// PostgreSQL settings
+	//driverClassName = "org.postgresql.Driver"
+	//username = "conftracker"
+	//password = "password"
+    //dialect = org.hibernate.dialect.PostgreSQLDialect
 }
 hibernate {
     cache.use_second_level_cache=true
